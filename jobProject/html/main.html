@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../javaScript/main.js"></script>
+    
+</head>
+<body>
+   
+    <div class="container">
+        <p id="headline" class="hr">Bundle & Save</p> <br>
+     
+        <div id="box1">
+          <input type="radio" name="pair"  value="DKK 195.00" style="margin-right: 20px ;" onclick="funcpair() ; funcpairone()"  > 1 Pair  <br><h4>DKK 195.00</h4> <br>
+          <h5 id="disc1">50% OFF</h5>
+          
+          <table id="table1" style="display: none;">
+              <tr><th> </th> <th> Size</th> <th>Colour</th></tr>
+              <tr><td>#1</td> <td>
+                  <select class="dropdownsize">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>XL</option>
+            
+                  </select>
+                </td>
+                <td>
+                  <select class="dropdowncolour" name="colour">
+                    <option selected hidden>Colour</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Pink</option>
+            
+                  </select>
+                </td>
+            
+              </tr>
+          </table>
+        
+        </div><br>
+
+        <div id="box2">
+          <input type="radio" name="pair" value="DKK 345.00" style="margin-right: 20px ; " onclick="funcpair(); funcpairtwo()" > 2 Pair <br><h4>DKK 345.00</h4> <br> 
+          <p id="popular">Most Popular</p>
+          <s>DKK 195.00</s>
+          <h5 id="disc2">40% OFF</h5>
+          <table id="table2" style="display: none;">
+                <tr>
+                  <th> </th>
+                  <th> Size</th> 
+                  <th>Colour</th>
+                </tr>
+              <tr>
+                  <td>#1</td> 
+                  <td>
+                      <select class="dropdownsize" >
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+
+                      </select>
+                  </td>
+                  <td>
+                    <select class="dropdowncolour">
+                      <option selected hidden>Colour</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                      <option>Pink</option>
+                    </select>
+                  </td>
+                
+              </tr>
+
+              <tr>
+                 <td>#2</td> 
+                  <td>
+                      <select class="dropdownsize">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>XL</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select class="dropdowncolour" name="colour">
+                        <option selected hidden>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Pink</option>
+                      </select>
+                  </td>
+              </tr>
+          </table>
+        
+        </div><br>
+
+      <div id="box3">
+          <input type="radio" name="pair" id="pair3" value= "DKK 528.00" style="margin-right: 20px ;" onclick="funcpair() ; funcpairthird()">3 Pair <br><h4>DKK 528.00</h4> <br>
+          <h5 id="disc3">60% OFF</h5>
+          <table id="table3" style="display: none;">
+            <tr>
+              <th> </th> 
+              <th> Size</th> 
+              <th>Colour</th>
+            </tr>
+            <tr>
+                  <td>#1</td>
+                  <td>
+                    <select class="dropdownsize" >
+                      <option>S</option>
+                      <option>M</option>
+                      <option>XL</option>
+                    </select>
+                  </td>
+                <td>
+                  <select class="dropdowncolour">
+                    <option selected hidden>Colour</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Pink</option>
+                  </select>
+                </td>
+          
+            </tr>
+
+            <tr>
+                <td>#2</td>
+                <td>
+                  <select class="dropdownsize">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>XL</option>
+                  </select>
+              </td>
+              <td>
+                  <select class="dropdowncolour" name="colour">
+                    <option selected hidden>Colour</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Pink</option>
+                  </select>
+              </td>
+        
+            </tr>
+
+           <tr>
+              <td>#3</td> 
+              <td>
+                  <select class="dropdownsize">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>XL</option>
+                  </select>
+              </td>
+              <td>
+                  <select class="dropdowncolour" name="colour">
+                    <option selected hidden>Colour</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Pink</option>
+                  </select>
+              </td>
+            </tr>
+          </table>
+       </div>
+      <p id="shipping">Free 2 Day Shipping</p>
+      <p id="total">Total:</p><label id="t1" value="0.00"></label>
+      <button id="cardbtn"  onclick="funcaddcard()">+ Add to Card</button>
+    </div>
+  </body>
+</html>

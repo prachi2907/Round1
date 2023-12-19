@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.hr:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 105px;
+    margin-left: -125px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: rgb(173, 171, 171);
+}
+.hr{
+    position: relative;
+  text-align: center;
+}
+.hr:after{
+    content:" ";
+  height: 2px;
+  width: 105px;
+  background: rgb(173, 171, 171);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: -120px;
+  font-weight: lighter;
+}
+#headline{
+    color: green;
+    font-weight: 500;
+}
+#box1{
+    width: 340.73px;
+    height: auto;
+    border: 1px solid gray;
+}
+#disc1{
+    margin-left: 260px;
+    margin-top: -65px;
+    font-size: medium;
+}
+h4{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+input[type="radio"]{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#table1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#p1{
+    display:none;
+}
+#box2{
+    width: 340.73px;
+    height: auto;
+    border: 1px solid gray;
+}
+#popular{
+    margin-left: 255px;
+    margin-top: -70px;
+    font-size: 13px;
+    color: green;
+    font-weight: 700;
+}
+#disc2{
+    margin-left: 260px;
+    margin-top: -15px;
+    font-size: medium;
+    
+}
+s{
+    margin-left: 190px;
+    margin-bottom: -90px;
+    font-size:10px;
+}
+#table2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+th{
+    font-weight: 300;
+    margin-left: 50px;
+    
+
+}
+tr{
+    font-size: small;
+    margin-left: 30px;
+    border-spacing: 50px;
+}
+.dropdownsize{
+    width: 65.98px;
+    height: 25.31px;
+    margin-top: 5px;
+    
+}
+.dropdowncolour{
+    width: 72.3px;
+    height: 25.31px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#box3{
+    width: 340.73px;
+    height: auto;
+    border: 1px solid gray;
+}
+#table3{
+    margin-top: -1px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#disc3{
+    margin-left: 260px;
+    margin-top: -40px;
+    font-size: medium;
+    
+}
+
+#shipping{
+    color: rgb(70, 239, 160);
+    margin-right: 210px;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: -20px;
+}
+#total{
+    margin-left: 120px;
+    margin-top: 2px;
+   
+    font-size: 16px;
+    
+}
+#t1{
+    margin-left: 260px;
+    margin-top: -19px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#cardbtn{
+    width: 340.73px;
+    height: 48px;
+    background-color:rgb(71, 156, 71) ;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    border: none;
+    font-size: 17px;
+    
+}
